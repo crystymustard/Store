@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+</head>
+<body>
+<h2>Order List</h2>
+<form action="#" method="GET">
+<fieldset>
+    <legend>General Info</legend>
+        <label for="email">email</label><br>
+        <input type="email" placeholder="email" required id="email"><br>
+        <label for="login">login</label><br>
+        <input type="text" placeholder="login" required id="login"><br>
+        <label for="password">password</label><br>
+        <input type="password" placeholder="password" required id="password"><br>
+ </fieldset>
+ <br>
+ <fieldset>
+    <legend>User Info</legend>
+    <label for="name">Name</label><br>
+    <input type="text" placeholder="Name" required id="Name"><br>
+    <label for="Surname">Surname</label><br>
+    <input type="text" placeholder="Surname" required id="Surname"><br>
+    <p>
+        Gender:
+    <label>male<input type="radio" name="gender" value="male"></label>
+    <label>female<input type="radio" name="gender" value="female"></label>
+    </p>
+    <label>
+        Age
+        <br>
+        <input type="number" placeholder="age" min="0" required>
+    </label>
+    <br>
+    <br>
+    <label>
+        Tell us about something:
+        <br>
+        <textarea rows="10" cols="50"></textarea>
+    </label>
+ </fieldset>
+ <fieldset>
+     <legend>Order Info</legend>
+     <label>
+         Phone to select:
+         <br>
+         <select name="Phone">
+             <option value="Select Phone">Select Phone</option>
+             <option value="Iphone11">Iphone11</option>
+             <option value="Iphone11">Samsung s20</option>
+             <option value="Iphone11">Xiaomi</option>
+         </select>
+     </label>
+     <br>
+     <br>
+     <label>
+        Color
+        <br>
+        <input type="color" value="#fff" name="color">
+    </label>
+    <br>
+    <br>
+    <label>
+        Data
+        <br>
+        <input type="date" mindate="1940-01-01" maxdate="2030-01-01">
+ </fieldset>
+ <input type="submit" value="submit data">
+ <input type="reset" value="reset data">
+</form>
+</body>
+</html>
